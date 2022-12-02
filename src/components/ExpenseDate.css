@@ -1,0 +1,12 @@
+.expense-date {
+  text-align: center;
+  background-color: #167c5e;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100px;
+  border: 1px solid aliceblue;
+}
+
+.expense-date h2 {
+  font-size: 22px;
+}

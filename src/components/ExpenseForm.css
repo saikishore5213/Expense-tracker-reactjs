@@ -1,0 +1,66 @@
+.expense-form {
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: #0ca678;
+  border-radius: 10px;
+}
+
+.expense-form label {
+  font-size: 22px;
+  color: aliceblue;
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 9px;
+  background-color: rgb(219, 227, 235);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.expense-form button {
+  background-color: #087f5b;
+  z-index: 1;
+  color: aliceblue;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  align-self: end;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.expense-form button:hover {
+  background-color: aliceblue;
+  color: #087f5b;
+  cursor: pointer;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+}
+
+.add-button button {
+  background-color: #087f5b;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+}
